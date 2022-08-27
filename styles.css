@@ -50,21 +50,6 @@
 .nav-link{
     color: #be0027;
 }
-.navbar li::after{
-    content: '';
-    display: block;
-    height: 4px;
-    width: 0;
-    background-color: #511378;
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-}
-.navbar li:hover::after{
-    width: 100%;
-}
 .nav-item{
     justify-content: center;
 }
