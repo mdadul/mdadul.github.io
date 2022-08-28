@@ -87,7 +87,16 @@
     color: #511378;
     padding-right: 7px;
 }
+/*  service section css code*/
+#services{
+    background: url("img/banner.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .service{
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
