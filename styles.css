@@ -90,10 +90,10 @@
 /*  service section css code*/
 #services{
     background: url("img/banner.jpg");
-    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 20px;
 }
 .service{
     background-color: white;
