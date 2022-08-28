@@ -98,6 +98,7 @@
     padding: 15px;
 }
 .service:hover{
+    border-bottom: #511378 solid 4px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .service i{
@@ -113,6 +114,9 @@
 }
 .skill i{
     font-size: 4em;
+    color: #8e6e74;
+}
+.skill i:hover{
     color: #be0027;
 }
 .skill-main{
@@ -172,7 +176,7 @@
 .test-title p{
     color: #005e1c;
 }
-#testimonial h1{
+#testimonial .title{
     color: white;
     font-size: 2em;
     font-family: 'Berkshire Swash', cursive;
@@ -198,7 +202,7 @@
     padding-bottom: 40px;
 }
 /* COntact */
-#contact h1,#skills h1,#portfolio h1,#services h1{
+#contact h1,#skills h1,#portfolio h1,#services h1,.test-info h1{
     color: #52325d;
     font-size: 2em;
     font-family: 'Berkshire Swash', cursive;
